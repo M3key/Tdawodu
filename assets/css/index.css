@@ -1,0 +1,169 @@
+	@font-face {
+		font-family: 'title';
+		src: url(../fonts/lovelolinebold.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'para3';
+		src: url(../fonts/avenirnextltproregular.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'iam';
+		src: url(../fonts/crumble.ttf);
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'para1';
+		src: url(../fonts/crumble.ttf);
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'design';
+		src: url(../fonts/lovelolinebold.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'layouth';
+		src: url(../fonts/lovelolinebold.otf);
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	.container {
+		background-image: url(../jpgs/caleb-george-200436.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		padding: 200px;
+	}
+
+	.iam p {
+		font-family: 'iam';
+		font-size: 42px;
+		color: #e6fbff;
+		padding-left: 500px;
+	}
+
+	.design p {
+		font-family: 'design';
+		font-size: 75px;
+		letter-spacing: 10px;
+		color: #e6fbff;
+		padding-left: 300px;
+	}
+
+	.nav {
+		width: 100%;
+	}
+
+	.nav_list {
+		list-style-type: none;
+	}
+
+	.nav_list li {
+		padding: 0 10px;
+		display: inline;
+	}
+
+	.nav_list a {
+		font-family: 'layouth';
+		text-decoration: none;
+		color: aliceblue;
+	}
+
+	.slantcontainer {
+		width: 100%;
+		overflow: hidden;
+		padding: 100px 0px;
+	}
+
+	.about {
+		background-color: #e6fbff;
+		transform: rotateZ(-5deg);
+		height: 800px;
+		position: relative;
+		width: 120%;
+
+		margin-left: -10%;
+	}
+
+	.title {
+		font-family: 'title';
+		padding-left: 500px;
+		display: block;
+		font-size: 48px;
+	}
+
+	.para3 {
+		font-family: 'para3';
+	}
+
+	.para2 {
+		width: 1200px;
+		margin: 0 auto;
+		transform: rotateZ(5deg);
+		padding-top: 10%
+	}
+
+	.para1 {
+		font-family: 'para1';
+		font-size: 42px
+	}
+
+	.aboutcontent {
+		display: inline-block;
+		width: 1000px;
+		padding-left: 500xpx
+	}
+
+	.recent {
+		background-color: #fff;
+		width: 20 00px;
+		height: 1100px;
+	}
+
+	.services {
+		background-color: #1e2e5b;
+		width: 581.50px;
+		height: 3342px;
+	}
+
+	.clients {
+		background-color: #f9f9fa;
+		width: 605px;
+		height 4101px;
+	}
+
+	.pic1 {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		background-image: url(../jpgs/pic1.png);
+		display: inline-block;
+		background-repeat: no-repeat;
+		background-size: auto auto;
+		padding-bottom: 10px;
+		padding-top: 10px
+	}
+
+	.logo {
+		text-align: center;
+	}
+
+	.logo img {
+		width: 50px;
+	}
